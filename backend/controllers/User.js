@@ -19,7 +19,7 @@ const registerUser = async (req, res) => {
       userName,
       password: hashedPassword,
     });
-    res.status(201).send("User created successfully");
+    res.status(201).json({ msg: "User created successfully" });
   } catch (error) {
     res.status(500).json({ msg: error });
   }
@@ -50,7 +50,7 @@ const loginUser = async (req, res) => {
       maxAge: 3600000,
       secure: true,
     });
-    return res.status(200).json({ token });
+    return res.status(200).json({ msg: "Login successful", token });
   } catch (error) {
     res.status(500).json({ msg: error });
   }
