@@ -18,6 +18,7 @@ To run this project locally, you'll need the following installed on your system:
 - Node.js (version 12 or higher)
 - npm or yarn
 
+Clone the repository
 ```bash
 git clone https://github.com/vermashaurya24/JWT-Authentication-Authorization-NodeJS.git
 ```
