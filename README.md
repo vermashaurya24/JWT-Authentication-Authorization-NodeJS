@@ -117,3 +117,8 @@ In this section, you can find screenshots of API calls made via Postman for each
 
 #### Protected Route API Call
 ![image](https://github.com/vermashaurya24/JWT-Authentication-Authorization-NodeJS/assets/58764912/369b8b92-a6b6-4d5f-87d9-8198b7257b4b)
+
+## Contact
+
+- If you have any queries, or would like to collaborate on more such awesome projects, email me at vermashaurya24@gmail.com
+- My resume https://bit.ly/resume_shaurya
